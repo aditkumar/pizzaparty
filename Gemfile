@@ -5,13 +5,20 @@ gem 'rails', '3.2.11'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
+gem 'annotate'
+gem 'httparty'
+gem 'jquery-rails'
+gem 'json'
+gem 'koala'
 gem 'omniauth'
 gem 'omniauth-facebook'
 gem 'ordrin'
+gem 'sinatra'
 gem 'sqlite3'
+gem 'thin'
 gem 'twitter-bootstrap-rails'
 gem 'twilio-ruby'
-gem 'annotate'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -23,8 +30,6 @@ group :assets do
 
   gem 'uglifier', '>= 1.0.3'
 end
-
-gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -40,3 +45,5 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+source :gemcutter
