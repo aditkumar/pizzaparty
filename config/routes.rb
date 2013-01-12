@@ -1,5 +1,5 @@
 Pizzaparty::Application.routes.draw do
-  root :to => "parties#index"
+  root :to => "parties#new"
   resources :parties
 
 
