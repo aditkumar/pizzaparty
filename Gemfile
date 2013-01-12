@@ -14,7 +14,6 @@ gem 'omniauth'
 gem 'omniauth-facebook'
 gem 'ordrin'
 gem 'sinatra'
-gem 'sqlite3'
 gem 'thin'
 gem 'twitter-bootstrap-rails'
 gem 'twilio-ruby'
@@ -29,6 +28,12 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
+end
+group :development do
+  gem 'sqlite3'
+end
+group :production do
+  gem 'pg'
 end
 
 # To use ActiveModel has_secure_password
