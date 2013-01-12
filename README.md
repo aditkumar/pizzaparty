@@ -1,6 +1,9 @@
 pizzaparty
 ==========
 API Hackday Pizza!
+IRC channel #pizzaparty
+Go to http://webchat.freenode.net/ for an online irc client
+
 
 ordr.in API Information
 PUBLIC y7JumAhr9gotJKJElCZl97dQXQ1BWD2Anue3xgFpyLg
