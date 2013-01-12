@@ -6,6 +6,7 @@ gem 'rails', '3.2.11'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'omniauth'
+gem 'omniauth-facebook'
 gem 'ordrin'
 gem 'sqlite3'
 gem 'twitter-bootstrap-rails'
