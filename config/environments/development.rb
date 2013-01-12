@@ -1,4 +1,7 @@
 Pizzaparty::Application.configure do
+  ENV['FACEBOOK_APP_ID'] = "430281217045849"
+  ENV['FACEBOOK_SECRET'] = "4085257bebc8f8ff22ff5910e3eec551"
+
   # Settings specified here will take precedence over those in config/application.rb
 
   # In the development environment your application's code is reloaded on
