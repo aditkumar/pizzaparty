@@ -11,7 +11,7 @@ gem 'ordrin'
 gem 'sqlite3'
 gem 'twitter-bootstrap-rails'
 gem 'twilio-ruby'
-
+gem 'annotate'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
